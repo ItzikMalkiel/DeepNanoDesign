@@ -1,6 +1,6 @@
 # DeepNanoDesign - training a bi-diorectional neural network for the design of nano-photonics structures
 
-DeepNanoDesign is a software library for training deep neural networks to design and retrieve nano-photonic structures.
+DeepNanoDesign is a software library for training deep neural networks for the design and retrieval of nano-photonic structures.
 
 ## Run the experiment
 Training a network:
