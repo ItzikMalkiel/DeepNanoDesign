@@ -7,7 +7,7 @@ dofile 'utils.lua'
 
 print '==> configuring project...'
 dofile 'configuration.lua'
-dofile '3_loss.lua'
+dofile 'buildLossFunction.lua'
 
 if bothDirections then
 
@@ -16,8 +16,8 @@ if bothDirections then
   
 
 else
-  dofile '4_train.lua'
-  dofile '5_test.lua'
+  dofile 'train.lua'
+  dofile 'test.lua'
 end
 
 

@@ -20,7 +20,6 @@ torch.setdefaulttensortype('torch.DoubleTensor')
 saveDatasetToDisk = false 
 loadDatasetHook = true   
 dummyData = false 
-fixNoiseAboveZeroPoint9 = true
 --DATASET_NAME = 'datasetV6.3'         ----------not augmented and with many many eps 
 DATASET_NAME = 'datasetVersion5.6'         ----------not augmented and with many many eps
 batchSize = 64  --- better for both directions - use it for verion 5
@@ -91,9 +90,9 @@ GAAlgo = False
 useCuda = false
 
 if inverseFunction then
-  loadData = '1_data_accurateDataset_inverseFunction.lua'
+  loadData = 'loadDatasetForInverseFunction.lua'
 else
-  loadData = '1_data_accurateDataset_directFunction.lua'
+  loadData = 'loadDatasetForDirectFunction.lua'
 end
 
 print '==> loading data'
@@ -105,7 +104,7 @@ if stage2 then
 else
   dofile (loadData)
 
-  dofile '2_model_inverse.lua'
+--  dofile '2_model_inverse.lua'
   dofile 'buildResidualNetwork.lua'
 
   dofile 'buildInverseSplittedModel.lua'

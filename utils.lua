@@ -40,6 +40,8 @@ function waitDebug(seconds)
   end
 end
 
+fixNoiseAboveZeroPoint9 = true
+
 function plot(target, pred, diff, string, render)
 
   string = string or 'diff'
