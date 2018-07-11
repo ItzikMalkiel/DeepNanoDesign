@@ -16,9 +16,9 @@ th geneticsAlgorithm.lua
 ```
 
 ## Models
-Via configuration, you can choose between:
+You can choose between:
 1) training a bi-directional model that given two spectra predicts a geometry and predict back its spectra. 
-2) training an inverse network (GPN) that only predicts a geometry 
+2) training an inverse network (GPN) that only predicts a geometry.
 3) training a direct network (SPN) that given a geometry predicts two spectrums. 
 4) Running Genetic Algorithm (GA) to design a geometry for a given spectra.
 
