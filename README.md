@@ -2,7 +2,7 @@
 
 DeepNanoDesign is a software library for training deep neural networks for the design and retrieval of nano-photonic structures.
 
-## Run the experiment
+## Run an experiment
 Training a network:
 1. Set-up your experiment in `configuration.lua`.
 2. Run experiment:
