@@ -25,8 +25,7 @@ geometry.
 
 ## Citation
 
-Please cite our paper if you use this code in your research:
-
+If you find this code useful in your research, please consider citing: 
 ```
 I. Malkiel, M. Mrejen, A. Nagler, U. Arieli, L. Wolf and H. Suchowski, "Deep learning for the design of nano-photonic structures," 2018 IEEE International Conference on Computational Photography (ICCP), Pittsburgh, PA, 2018, pp. 1-14.
 ```
