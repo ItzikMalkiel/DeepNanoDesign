@@ -1,1 +1,3 @@
-a pre-trained bi-directional netowrk for designing nano-structures
+model.net is pre-trained bi-directional netowrk for designing nano-structures
+
+The model was trained and saved using torch7 framework.
