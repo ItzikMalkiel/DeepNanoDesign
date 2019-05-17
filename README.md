@@ -25,7 +25,7 @@ geometry.
 
 ## Citation
 
-If you find this code useful in your research, please consider citing both papers: 
+If you find the code or the data useful in your research, please consider citing both papers: 
 ```
 I. Malkiel, M. Mrejen, A. Nagler, U. Arieli, L. Wolf and H. Suchowski, "Plasmonic nanostructure design and characterization via Deep Learning", Light: Science & Applications 7 (1), 60
 
